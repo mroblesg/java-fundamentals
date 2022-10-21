@@ -21,6 +21,9 @@ class Iterable implements Runnable {
     }
 }
 
+
+//https://baptiste-wicht.com/categories/concurrency.html More concurrency examples and explanations
+//ToDo: Take a look to semaphores
 public class Ex1 {
     public static void main(String[] args) {
         Iterable obj1 = new Iterable("Thread 1");
